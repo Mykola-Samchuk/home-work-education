@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="all-content">
+        <div class="table-one">
+            <h2>Таблиця СуперГероїв</h2>
+            <table >
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Прізвище</th>
+                    <th>Телефон</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Тоні</td>
+                    <td>Старк</td>
+                    <td>+380111111111</td>
+                    <td>ironman@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Пітер</td>
+                    <td>Паркер</td>
+                    <td>+380111111111</td>
+                    <td>spiderman@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Тор</td>
+                    <td>Всемогутній</td>
+                    <td>+380111111111</td>
+                    <td>tor@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Стівен</td>
+                    <td>Роджерс</td>
+                    <td>+380111111111</td>
+                    <td>captain@gmail.com</td>
+                </tr>
+              
+            </table>
+
+        </div>
+        <div class="forma">
+            <h2>Форма для заповнення</h2>
+            <form action="#">
+
+                <p>Інформація про Вас:</p>
+                <input class="form-input" type="text" name="name" placeholder="Введіть ваше Ім'я">
+                <input class="form-input" type="text" name="name" placeholder="Введіть ваше Прізвище">
+
+                <p>Ваша стать:</p>
+                <input type="radio" name="sex" class="sex"><span>Ч</span>
+                <input type="radio" name="sex" class="sex" checked><span>Ж</span>
+
+                <p>Ваша Суперсила:</p>
+                <textarea name="coment" id="#" cols="30" rows="10" class="comment" placeholder="Опис суперсили"></textarea>
+
+                <p>Ваше Місто:</p>
+                <select name="city" id="#" class="your-city">
+                    <option selected value="0" disabled>Виберіть Ваше Місто</option>
+                    <option value="1">Нью-Йорк</option>
+                    <option value="2">Філадельфія</option>
+                    <option value="3">Сан-Франциско</option>
+                    <option value="4">Вашингтон</option>
+                </select>
+
+                <p>Виберіть мову</p>
+                <input type="radio" name="ua" class="lang"><span>Українська</span><br>
+                <input type="radio" name="en" class="lang"><span>Англійська</span><br>
+                <input type="radio" name="gr" class="lang"><span>Німецька</span><br>
+                <button submit class="lang">Відправити</button>
+                
+            </form>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
