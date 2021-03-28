@@ -46,29 +46,31 @@ td{
     padding-right: 5px;
 }
 .search-icon{
-    width: 15px;
+    width: 13px;
 }
 .search-box{
     background-color: grey;
     border-radius: 7px;
-    height: 30px;
+    padding: none;
+    cursor: text;
+    
+}
+.search-table{
+    padding: 5px;
 }
 .input-search{
-    padding-left: 10px;
     background-color: grey;
+    border-radius: 10px;
     border: none;
     outline: none;
     color: honeydew;
-    width: 80px;
-    
-     
-}
-
-::placeholder{
+    width: 150px;
+    font-size: 18px;   
+    text-align: left;
+    cursor: text;  
+} 
+input[type="text"]::-webkit-input-placeholder{
     color: rgb(192, 192, 192);
-}
-.search-conteine{
-    margin-top: 5px;
 }
 .search-icon{
     padding-top: 8px;
