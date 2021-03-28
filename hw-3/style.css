@@ -1,0 +1,76 @@
+
+body{
+    background-color: rgb(32, 32, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    border: 1px rgb(104, 103, 103) solid;
+    border-spacing: 0px;
+    border-radius: 7px;
+    height: 80px;
+    width: 700px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+    table-layout : fixed;
+    background-color: rgb(65, 62, 62);
+}
+th, td{
+    text-align: left;
+    padding: 10px;    
+}
+td{
+    border-top:1px rgb(104, 103, 103) solid;
+    color: grey;
+}
+.content-dots{
+    text-align: right;
+    color: grey;
+}
+.content-table{
+    color: rgb(221, 220, 220);
+    
+}
+.arrow-icon{
+    height: 7px;
+    width: 10px;
+    padding-left: 5px;
+}
+.content-dots-second{
+    color: rgb(221, 220, 220);
+    text-align: right;
+}
+.icon-folder{
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+.search-icon{
+    width: 15px;
+}
+.search-box{
+    background-color: grey;
+    border-radius: 7px;
+    height: 30px;
+}
+.input-search{
+    padding-left: 10px;
+    background-color: grey;
+    border: none;
+    outline: none;
+    color: honeydew;
+    width: 80px;
+    
+     
+}
+
+::placeholder{
+    color: rgb(192, 192, 192);
+}
+.search-conteine{
+    margin-top: 5px;
+}
+.search-icon{
+    padding-top: 8px;
+    padding-left: 7px;
+}
