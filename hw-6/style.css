@@ -28,7 +28,7 @@
   align-items: center;
 }
 .button {
-    
+  outline: none;  
   width: 501px;
   height: 92px;
   border: none;
