@@ -1,0 +1,82 @@
+body {
+  font-family: "Lato";
+}
+a{
+    text-decoration: none;
+}
+/* header conteiner start */
+.header-conteiner {
+  width: 100%;
+  height: 41.5em;
+  background: #f4f6f9;
+  background-image: url(../img/phone-group.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+
+.head-content {
+  padding-left: 10.19em;
+  padding-top: 3.94em;
+}
+.header-logo-title {
+  width: 46%;
+}
+.logo-icon {
+  margin-bottom: 8.3em;
+}
+.header-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.25em;
+  letter-spacing: 0.03em;
+  line-height: 1.63em;
+  color: #333333;
+  margin-bottom: 1.87em;
+}
+.header-text {
+  width: 83%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.13em;
+  line-height: 1.63em;
+  color: #4f4f4f;
+  margin-bottom: 3.13em;
+}
+.link-store{
+    margin-right: 2.25em;
+}
+
+.link-app-play a:last-child {
+    margin-right: 0;
+}
+
+@media (max-width:950px){
+    .header-conteiner {
+        height: 100%;
+        background-image: none;
+      }
+      .header-title, .header-text  {
+        width: 83%;
+        text-align: center;
+      }
+      .head-content {
+          padding: 2.12em 1.25em 3.69em 1.25em;
+          display: flex;
+          align-items: center;    
+      }
+      .header-logo-title {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .link-app-play{
+        display: flex;
+      }
+
+}
+
+
+/* header conteiner end */
