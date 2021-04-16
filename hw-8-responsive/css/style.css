@@ -1,8 +1,8 @@
 body {
   font-family: "Lato";
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 /* header conteiner start */
 .header-conteiner {
@@ -14,7 +14,6 @@ a{
   background-position: right;
 }
 
-
 .head-content {
   padding-left: 10.19em;
   padding-top: 3.94em;
@@ -22,9 +21,10 @@ a{
 .header-logo-title {
   width: 46%;
 }
-.logo-icon {
+.logo-link-header {
   margin-bottom: 8.3em;
 }
+
 .header-title {
   font-style: normal;
   font-weight: bold;
@@ -43,40 +43,143 @@ a{
   color: #4f4f4f;
   margin-bottom: 3.13em;
 }
-.link-store{
-    margin-right: 2.25em;
+.link-store {
+  margin-right: 2.25em;
 }
 
 .link-app-play a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
-@media (max-width:950px){
-    .header-conteiner {
-        height: 100%;
-        background-image: none;
-      }
-      .header-title, .header-text  {
-        width: 83%;
-        text-align: center;
-      }
-      .head-content {
-          padding: 2.12em 1.25em 3.69em 1.25em;
-          display: flex;
-          align-items: center;    
-      }
-      .header-logo-title {
-        width: 100%;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      .link-app-play{
-        display: flex;
-      }
+@media (max-width: 950px) {
+  .header-conteiner {
+    height: 50%;
+    background-image: none;
+  }
+  .header-title,
+  .header-text {
+    width: 83%;
+    text-align: center;
+  }
+  .head-content {
+    padding: 2.12em 1.25em 3.69em 1.25em;
+    display: flex;
+    align-items: center;
+  }
+  .header-logo-title {
+    width: 100%;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .link-app-play {
+    display: flex;
+  }
+  .link-store {
+    width: 40%;
+  }
 }
-
 
 /* header conteiner end */
+
+/* maine start */
+/* what-it-start */
+.what-it-conteiner {
+  width: 100%;
+  height: 37em;
+  display: flex;
+}
+.media-content {
+  width: 60%;
+  background: linear-gradient(
+      270deg,
+      #ffffff 5.16%,
+      rgba(255, 255, 255, 0) 67.14%
+    ),
+    rgba(255, 255, 255, 0.5) url(../img/christiano.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.media-info{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.arsenal-cart{
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    
+
+}
+.video-cart{
+    width: inherit;
+    position: absolute;
+    right: 22%;
+    bottom: 10%;
+
+   
+}
+.experience-conteiner {
+  width: 40%;
+  height: 37em;
+  display: flex;
+  justify-content: center;
+}
+.experience-info {
+  margin: auto 0;
+  width: 80%;
+  height: 58%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.link-experience {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 21px;
+  color: #00adee;
+}
+.experience-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.75em;
+  line-height: 37px;
+  color: #333333;
+}
+.experience-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.44em;
+  color: #4f4f4f;
+}
+
+@media (max-width: 950px){
+    .what-it-conteiner{
+        flex-direction: column-reverse;
+    }
+    .experience-conteiner{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* what-it-end */
