@@ -62,7 +62,7 @@ a {
     text-align: center;
   }
   .head-content {
-    padding: 2.12em 1.25em 3.69em 1.25em;
+    /* padding: 2.12em 1.25em 3.69em 1.25em; */
     display: flex;
     align-items: center;
   }
@@ -77,7 +77,12 @@ a {
     width: 30%;
     display: flex;
     justify-content: center;
+    margin-bottom: 2em;
   }
+  .head-content {
+    padding-left: 0;
+  }
+
 }
 
 /* header conteiner end */
@@ -213,6 +218,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .interface-content {
   width: 30%;
   height: 100%;
@@ -228,12 +234,41 @@ a {
   flex-direction: column;
   justify-content: space-around;
 }
+.phone-img{
+  display: none;
+}
 
 @media (max-width: 1024px) {
   .get-start {
+    background-image: none;
+  }
+  .interface-content{
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6em;
+  }
+  .user-box{
+    height: 100%;
+    align-items: center;
+
+  }
+.link-get, .user-text{
+  margin-top: 1em;
+}
+
+  .phone-img{
     display: block;
-    background-position: 60% center;
-    height: 16%;
+    width: 100%;
+    
+    /* background-image: url(../img/circle-for360.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+  }
+  .phone-icon{
+    width: 100%;
   }
 }
 
