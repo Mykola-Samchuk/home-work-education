@@ -212,7 +212,7 @@ a {
 }
 
 /* what-it-end */
-/* gt started start */
+/* get started start */
 .get-start {
   width: 100%;
   height: 44.7em;
@@ -222,7 +222,7 @@ a {
 }
 
 .interface-content {
-  width: 30%;
+  width: 50%;
   height: 100%;
   padding-left: 10.19em;
   display: flex;
@@ -314,18 +314,18 @@ a {
 }
 .flex-conteiner div {
   width: 30%;
-  height: 30vh;
+  height: 30vh; 
   margin-bottom: 1em;
 }
 .features-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
+  font-size: 1em;
+  line-height: 1.44em;
   color: #ffffff;
 }
 .features-icon {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 @media (max-width: 1024px) {
   .features-conteiner {
@@ -366,17 +366,91 @@ a {
   display: flex;
   flex-direction: column;
 }
+.user-say-title,
+.dits-slider {
+  text-align: center;
+}
+.user-say-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin: 3em auto;
+}
+.slide-content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.slider-arrow-l,
+.slider-arrow-r {
+  position: absolute;
+  align-self: center;
+}
+.slider-arrow-l {
+  margin-left: 80%;
+}
+.slider-arrow-r {
+  margin-right: 80%;
+  margin-top: 1%;
+}
+.dоts-slider {
+  margin: 2em auto;
+  align-self: center;
+}
+
+@media (max-width: 1300px) {
+  .slide-cart:nth-child(3) {
+    display: none;
+  }
+}
+@media (max-width: 1172px) {
+  .slide-cart:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .slide-cart:nth-child(2) {
+    display: none;
+  }
+  .slide-cart:nth-child(6) {
+    display: none;
+  }
+  .slide-cart {
+    width: 60%;
+  }
+  .slide-content {
+    justify-content: center;
+  }
+  .slider-arrow-r {
+    display: none;
+  }
+  .slider-arrow-l {
+    margin-left: 60%;
+  }
+  .user-say-title {
+    margin: 1.5em auto;
+  }
+}
+
+/* user conteiner end */
+
+/* .slide-content{
+  display: flex;
+}
 .card {
   background-color: #fff;
-  width: 80%;
+  width: 90%;
   margin: auto;
   min-height: 15em;
   display: flex;
   overflow-x: auto;
 }
-.card--content {
+
+.card-content {
   background: #ffffff;
-  min-width: 35em;
+  min-width: 36em;
   margin: 5px;
   border: 1px solid #828282;
   border-radius: 4px;
@@ -401,8 +475,8 @@ a {
 .card-block div h2 {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1em;
+  line-height: 1.19em;
   color: #333333;
 }
 .card-in {
@@ -414,11 +488,8 @@ a {
 .card-in p {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 0.88em;
+  line-height: 1.13em;
   color: #4f4f4f;
   margin: 1.5em;
-}
-
-
-/* user conteiner end */
+} */
