@@ -107,7 +107,7 @@ a {
 }
 .media-info {
   width: 80%;
-  height: 70%;
+  height: 75%;
   display: flex;
   justify-content: center;
 }
@@ -129,7 +129,7 @@ a {
 }
 .video-cart {
   position: relative;
-  width: 50%;
+  width: 55%;
   z-index: 1;
   left: 28%;
   bottom: 23%;
