@@ -9,25 +9,83 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="all-content">
-         <!-- header start -->
-    <header class="container header-nav">
+    <header class="container-fluid header-nav">
+        <div class="container">
+            <nav class="m-nav navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+
+                    <form class="d-flex">
+                        <input class="m-search form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                    <div class="header-link">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="svg/home.svg" alt="home-icon">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="svg/telegram.svg" alt="telegram-icon">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="svg/compas.svg" alt="compass-icon">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="svg/heart.svg" alt="heart-icon">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="svg/circle.svg" alt="circle-icon">
+                                </a>
+                            </li>
+                            
+                        </ul>                        
+                    </div>
+
+                </div>
+            </nav>
+    
+        </div>
+    
+    <header>
+
+
+
+    <!-- bootstrap js connect -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+ <!-- header start -->
+    <!-- <header class="container-fluid header-nav">
         <div class="conteiner head-nav">
-            <div class="row">
-                <div class="col-4">
+            <div class="container row">
+                <div class="col-4 logo-link">
                     <a href="#" class="navbar-brand">
                         <img src="svg/instagram.svg" alt="instagra-logo">
                     </a>
                 </div>
                 <div class="col-4">
-                    <form class="d-flex">
+                    <form class="d-flex header-search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
+                    </form>
                 </div>
-                <div class="col-4 m-nav-icon">                   
+                <div class="col-4 m-nav-icon">
                     <div class="row">
-                        <div class="col">
+                        <div class="col link-icon">
                             <a href="#">
                                 <img src="svg/home.svg" alt="home-icon">
                             </a>
@@ -43,25 +101,11 @@
                             <a href="#">
                                 <img src="svg/circle.svg" alt="circle-icon">
                             </a>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="border"></div>
+    </header> -->
 
     <!-- header end -->
-
-    </div>
-   
-
-    
-
-
-
-
-<!-- bootstrap js connect -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
-</html>
