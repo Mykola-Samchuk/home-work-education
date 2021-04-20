@@ -1,7 +1,45 @@
 body {
     background: #FAFAFA;
 }
-.m-nav {
+
+a{
+    text-decoration: none;
+}
+.m-header-content{
+    margin-top: 1em;
+}
+.m-header-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.m-header::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #dbdbdb;
+    margin-top: 1em ;
+    margin-bottom: 1.81em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .m-nav {
   display: flex;
   justify-content: space-around;
 }
@@ -17,7 +55,7 @@ body {
   display: block;
 
   border-bottom: 1px solid #dbdbdb;
-}
+} */
 
 /* a{
     text-decoration: none;
