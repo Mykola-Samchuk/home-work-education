@@ -5,7 +5,8 @@ body {
 a{
     text-decoration: none;
 }
-.m-header-content{
+/* header start */
+.m-header{
     margin-top: 1em;
 }
 .m-header-link{
@@ -13,7 +14,12 @@ a{
     justify-content: flex-end;
     align-items: center;
 }
-
+.m-link{
+    margin-right: 0.5em;
+}
+.m-link:last-child{
+    margin-right: 0;
+}
 .m-header::after {
     content: "";
     display: block;
@@ -22,7 +28,40 @@ a{
     margin-bottom: 1.81em;
 }
 
+/* header end */
+/* maine start */
+.m-avatar{
+display: flex;
+justify-content: center;
+}
+.m-avatar-icon{
+    max-width: 9.63em;
+    max-height: 9.56em;
+}
+.name{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
 
+.name-head, .m-btn-foolow{
+    margin-right: 1.3em;
+}
+.m-btn-foolow{
+    width: 10em;
+}
+.m-arrow-down{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.m-btn-dots span::before{
+    content: '•••';
+    display: block;
+    color: #000;
+
+}
+/* maine end */
 
 
 
