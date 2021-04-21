@@ -1,124 +1,180 @@
 body {
-    background: #FAFAFA;
+  background: #fafafa;
+  min-width: 524px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
 }
 /* header start */
-.m-header{
-    margin-top: 1em;
+.m-header {
+  margin-top: 1em;
 }
-.m-header-link{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.m-header-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.m-link{
-    margin-right: 0.5em;
+.m-link {
+  margin-right: 0.5em;
 }
-.m-link:last-child{
-    margin-right: 0;
+.m-link:last-child {
+  margin-right: 0;
 }
 .m-header::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid #dbdbdb;
-    margin-top: 1em ;
-    margin-bottom: 1.81em;
+  content: "";
+  display: block;
+  border-bottom: 1px solid #dbdbdb;
+  margin-top: 1em;
+  margin-bottom: 1.81em;
 }
 
 /* header end */
 /* maine start */
-.m-avatar{
-display: flex;
-justify-content: center;
+.m-avatar {
+  display: flex;
+  justify-content: center;
 }
-.m-avatar-icon{
-    max-width: 9.63em;
-    max-height: 9.56em;
+.m-avatar-icon {
+  max-width: 9.63em;
+  max-height: 9.56em;
 }
-.name{
-    margin-top: 1em;
-    display: flex;
-    align-items: center;
-}
-
-.name-head, .m-btn-foolow{
-    margin-right: 1.3em;
-}
-.m-btn-foolow{
-    width: 10em;
-}
-.m-arrow-down{
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+.name {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
 }
 
-.m-btn-dots span::before{
-    content: '•••';
-    display: block;
-    color: #000;
-
+.name-head,
+.m-btn-foolow {
+  margin-right: 1.3em;
 }
-/* maine end */
+.m-btn-foolow {
+  width: 10em;
+}
+.m-arrow-down {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
 
+.m-btn-dots span::before {
+  content: "•••";
+  display: block;
+  color: #000;
+}
+.m-follow {
+  margin-top: 1.5em;
+}
+.m-about {
+  margin-top: 1.31em;
+}
+.m-about h4,
+p,
+.m-follow .col-2 h4,
+.col-3 h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.31em;
+  color: #262626;
+}
+.m-about h4 {
+  font-weight: 700;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .m-nav {
+@media (max-width: 991px) {
+  .m-follow {
+    display: none;
+  }
+}
+.m-stories {
+  margin-bottom: 3.44em;
+}
+.m-stories-content {
   display: flex;
   justify-content: space-around;
+  margin-left: 85px;
+  margin-top: 3.5em;
 }
-
-.d-flex {
-  padding-left: 3em;
+.m-stories-content .col-2 h5 {
+  padding-left: 1.5em;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 0.88em;
+  line-height: 1em;
+  color: #262626;
 }
-.m-search{
-    background: #FAFAFA;
-}
-.header-nav::after {
-  content: "";
-  display: block;
-
-  border-bottom: 1px solid #dbdbdb;
+/* .m-maine .m-menu::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 1.81em;
 } */
 
-/* a{
-    text-decoration: none;
+/* posts block start */
+.posts-tagged {
+  display: flex;
 }
-.m-nav-icon{
-    display: flex;
-    justify-content: flex-end;
-    
+.m-posts {
+  display: flex;
+  justify-content: flex-end;
 }
-.link-icon a{
-    margin-right: 0.5em;
+.m-tagged {
+  display: flex;
+  justify-content: flex-start;
+}
+.m-tagged p {
+  color: #8f8f8f;
+}
+.posts-content p,
+.m-tagged p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 1.5em;
+}
+.posts-content {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #262626;
+}
+.tagged-content {
+  display: flex;
+  align-items: center;
+}
+.posts-content,
+.tagged-content {
+  height: 3em;
+}
+.m-posts-block::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #dbdbdb;
+}
+.tagged-content:hover {
+  border-top: 1px solid #262626;
 }
 
-.head-nav{
-    margin-top: 1em;
-    width: 100%;
+/* posts block end */
+.foto-content .col-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.56em;
+}
+.foto-content .col-4:nth-child(1){
+  justify-content: flex-end;
+}
+.foto-content .col-4:nth-child(3){
+  justify-content: flex-start;
+}
+.foto-content .col-4 img{
+  margin: 1em;
 }
 
-
-.col-4 a{
-    align-items: center;
-}
-.logo-link, .link-icon{
-    display: flex;
-    align-items: center;
-}
- */
+/* maine end */
