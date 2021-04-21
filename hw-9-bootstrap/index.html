@@ -9,202 +9,188 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="all-content">
-        <header class="m-header">
-            <div class="container container-md ">
-                <div class="row m-header-content  container-fluid container-md">
-                    <div class="col-4 col-md-4">
-                        <a class="navbar-brand" href="#">
-                            <img src="img/svg/instagram.svg" alt="instagram-logo">
+    <header class="container-fluid">
+        <div class="container header-content">
+            <div class="row header-nav">
+                <div class="col-4 m-logo">
+                    <a href="#">
+                        <img src="img/svg/instagram.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="col-4 m-search">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </div>
+                <div class="col-4 m-nav-icon">
+                    <nav class="nav">    
+                        <a class="header-link" href="#">
+                            <img src="img/svg/home.svg" alt="home-link">
                         </a>
-                    </div>
-    
-                    <div class="col-4 col-md-4">
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-    
-                    <div class="m-header-link col-4 col-md-4">
-                        <a class="m-link" href="#">
-                            <img src="img/svg/home.svg" alt="home-icon">
+                        <a class="header-link" href="#">
+                            <img src="img/svg/telegram.svg" alt="telegram-link">
                         </a>
-                    
-                        <a class="m-link" href="#">
-                            <img src="img/svg/telegram.svg" alt="telegram-icon">
+                        <a class="header-link" href="#">
+                            <img src="img/svg/compas.svg" alt="compas-link">
                         </a>
-                    
-                        <a class="m-link" href="#">
-                            <img src="img/svg/compas.svg" alt="compass-icon">
-                        </a>
-                    
-                        <a class="m-link" href="#">
+                        <a class="header-link" href="#">
                             <img src="img/svg/heart.svg" alt="heart-icon">
                         </a>
-                    
-                        <a class="m-link" href="#">
+                        <a class="header-link" href="#">
                             <img src="img/svg/circle.svg" alt="circle-icon">
-                        </a>
-                    </div>
+                        </a>                       
+                      </nav>
                 </div>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="container main-content">
+            <div class="row">
+                <div class="col-4 m-avatar">
+                    <img class="avatar" src="img/png/Ellipse 36.png" alt="stories">
 
-            </div>           
-        </header>
-        
-        <maine class="m-maine container ">
-            <div class="container m-menu">
-                <div class="row">
-                    <div class="m-avatar col-4">
-                        <img class="m-avatar-icon" src="img/png/Ellipse 36.png" alt="m-avatar-icon">
-                    </div>
-                    <div class="col-8">
+                </div>
+                <div class="col-8">
+                    <div class="m-btn">
+                        <h3 class="m-name">name</h3>
+
+                        <button type="button" class=" m-btn-follow btn btn-primary">
+                            Follow
+                        </button>
+
+                        <button type="button" class="btn btn-primary dropdown-toggle"></button>
                         
-                        <div class="name">
-                            <h2 class="name-head">name</h2>
-                            <button type="button" class="m-btn-foolow btn btn-primary">
-                                Follow
-                            </button>
-                            <button type="button" class="m-arrow-down btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"></button>
-                            <button type="button" class="m-btn-dots btn">
-                                <span></span>
-                            </button>
-                        </div>
+                        <button type="button" class="btn m-dots-link">
+                            <img src="img/svg/dots.svg" alt="dots">
+                            <img src="img/svg/dots.svg" alt="dots">
+                            <img src="img/svg/dots.svg" alt="dots">
+                        </button>
 
-                        <div class="row m-follow">
-                            <div class="col-2">
-                                <h4>79 posts</h4>
-                            </div>
-                            <div class="col-3">
-                                <h4>379 followers</h4>
-                            </div>
-                            <div class="col-3">
-                                <h4>179 following</h4>
-                            </div>
-                        </div>
-                        <div class="row m-about">
-                            <h4>Name</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                            <a href="#">bit.ly/35Ce3mX</a>
-                        </div>
                     </div>
-                </div>
 
-                <div class="m-stories row" >
-                    <div class="col-6 m-stories-content">
-                        <div class="col-2">
-                            <img src="img/png/stories.png" alt="stories">
-                            <h5>Name</h5>
-                        </div>
-                        <div class="col-2">
-                            <img src="img/png/stories.png" alt="stories">
-                            <h5>Name</h5>
-                        </div>
-                        <div class="col-2">
-                            <img src="img/png/stories.png" alt="stories">
-                            <h5>Name</h5>
-                        </div>
+                    <div class="m-follow">
+                        <h5 class=>79 posts</h5>
+                        <h5 class=>379 followers</h5>
+                        <h5 class=>179 following</h5>
                     </div>
+                    <div class="m-about">
+                        <h5>Name</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <a href="#">bit.ly/35Ce3mX</a>
+                    </div>
+
                 </div>
             </div>
-            <!-- posts block start -->
-            <div class="container m-posts-block">
-                <div class="row posts-tagged">
-                    <div class="col-6 m-posts ">
-                        <div class="posts-content">
-                            <img src="img/svg/cube.svg" alt="cube">
-                            <p>POSTS<p>
+
+            <div class="row">
+                <div class="col-12 stories">
+                    <div class=" col-6 stories-conteiner">
+                        <div class="stories-name">
+                            <img src="img/png/stories.png" alt="stories-icon">
+                            <h5>name</h5>
                         </div>
+                        <div class="stories-name">
+                            <img src="img/png/stories.png" alt="stories-icon">
+                            <h5>name</h5>
+                        </div>
+                        <div class="stories-name">
+                            <img src="img/png/stories.png" alt="stories-icon">
+                            <h5>name</h5>
+                        </div>
+                        
             
-                    </div>
-                    <div class="col-6 m-tagged ">
-                        <div class="tagged-content">
-                            <img src="img/svg/marked.svg" alt="marked">
-                            <p>TAGGED<p>
-                        </div>
-                    </div>                        
-                </div>            
+                    </div>                   
+                        
+                    
+                </div>
             </div>
-            <!-- posts block end -->
-            <div class="container">
-                <div class="row  foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
+        </div>
+
+    </main>
+
+    <footer class="container-fluid">
+        <div class="container footer-content">
+            <div class="row posts-marked">
+
+                <div class="col-6 posts-content">
+                    <div class="posts-block">
+                        <img src="img/svg/cube.svg" alt="cube">
+                        <p>POSTS</p>
+                
                     </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
+                
                 </div>
-                <div class="row foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
+
+                <div class="col-6 marked-content">
+                    <div class="marked-block">
+                        <img src="img/svg/marked.svg" alt="marked">
+                        <p>TAGGED</p>
+                
                     </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                </div>
-                <div class="row foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                </div>
-                <div class="row foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                </div>
-                <div class="row foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                </div>
-                <div class="row foto-content">
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
-                    <div class="col-4">
-                        <img src="img/png/Rectangle 70.png" alt="foto">
-                    </div>
+                
                 </div>
             </div>
 
-        </maine>
 
 
+            <div class="foto-content">
+                <div class="row foto-block">
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                </div>
+                <div class="row foto-block">
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                </div>
+                <div class="row foto-block">
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                </div>
+                <div class="row foto-block">
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                    <div class="col-4">
+                        <img class="foto-icon" src="img/png/Rectangle 70.png" alt="foto">
+                    </div>
+                </div>
+                
+                
 
-    </div>
+            </div>
+
+        </div>
+
+
+    </footer >
     
-   
-
-
-
+       
     <!-- bootstrap js connect -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
