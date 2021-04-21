@@ -173,8 +173,7 @@ p,
 .foto-content .col-4:nth-child(3){
   justify-content: flex-start;
 }
-.foto-content .col-4 img{
-  margin: 1em;
+.foto-content{
+  min-width: 1000px;
 }
-
 /* maine end */
