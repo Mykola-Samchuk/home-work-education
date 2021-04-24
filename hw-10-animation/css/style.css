@@ -1,0 +1,199 @@
+/* ball start */
+.all-ball {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 162, 162);
+}
+.ball {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0em 100px 20px rgb(160 160 160 / 42%);
+}
+.ball:nth-of-type(1) {
+  background-color: rgb(50, 30, 163);
+}
+.ball:nth-of-type(2) {
+  background-color: rgb(81, 30, 163);
+}
+.ball:nth-of-type(3) {
+  background-color: rgb(125, 30, 163);
+}
+.ball:nth-of-type(4) {
+  background-color: rgb(147, 30, 163);
+}
+.ball:nth-of-type(5) {
+  background-color: rgb(163, 30, 141);
+}
+.ball:nth-of-type(6) {
+  background-color: rgb(163, 30, 96);
+}
+.ball:nth-of-type(7) {
+  background-color: rgb(163, 30, 41);
+}
+.first-ball {
+  position: relative;
+  animation-name: ball-left;
+  animation-duration: 1s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.last-ball {
+  position: relative;
+  animation-name: ball-right;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes ball-left {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  10% {
+    left: -5px;
+    bottom: -3;
+  }
+  20% {
+    left: -15px;
+    bottom: 7px;
+  }
+  35% {
+    left: -30px;
+    bottom: 15px;
+  }
+  50% {
+    left: -60px;
+    bottom: 30px;
+  }
+  75% {
+    left: 0;
+    bottom: 0;
+  }
+  100% {
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@keyframes ball-right {
+  0% {
+    left: 0;
+    bottom: 0;
+  }
+  10% {
+    left: 5px;
+    bottom: -3;
+  }
+  20% {
+    left: 15px;
+    bottom: 7px;
+  }
+  35% {
+    left: 30px;
+    bottom: 15px;
+  }
+  50% {
+    left: 60px;
+    bottom: 30px;
+  }
+  75% {
+    left: 0;
+    bottom: 0;
+  }
+  100% {
+    left: 0;
+    bottom: 0;
+  }
+}
+/* ball end */
+
+/* jedi start */
+
+.jedi-content {
+  height: 300px;
+  background-color: rgb(117, 92, 92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jedi {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px -1px 20px 5px black;
+}
+.green-handle,
+.red-handle {
+  width: 30px;
+  height: 100%;
+  background-color: black;
+  border-radius: 5px;
+}
+.green-handle {
+  margin-left: 150px;
+}
+
+.red-handle {
+  background-color: black;
+  margin-left: 20px;
+}
+
+.sword {
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.white-sword {
+  opacity: 1%;
+  transform: rotate(0deg);
+  background-color: white;
+  top: 60px;
+}
+.green-sword {
+  transform: rotate(45deg);
+  border-radius: 5px;
+}
+.red-sword,
+.green-sword {
+  background-color: white;
+}
+.jedi:hover .red-sword {
+  transition-duration: 1s;
+  box-shadow: 16px -1px 20px 5px red;
+}
+.jedi:hover .green-sword {
+  transition-duration: 1s;
+  box-shadow: -16px -1px 20px 5px green;
+}
+.jedi:active .green-sword {
+  transform: rotate(0);
+  transition-duration: 2s;
+  box-shadow: none;
+}
+.jedi:active .red-sword {
+  transform: translateY(40px);
+  transition-duration: 2.5s;
+  box-shadow: none;
+}
+.jedi:active .white-sword {
+  opacity: 100%;
+  transform: translateY(20px);
+  transition-duration: 2.5s;
+  box-shadow: none;
+}
+
+/* jedi end */
