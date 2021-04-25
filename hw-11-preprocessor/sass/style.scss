@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.header-block {
+  background-image: url(../img/header.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 69.38em;
+
+  .header-link {
+    padding-bottom: 16em;
+    padding-left: 0;
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-link {
+      a {
+        padding-right: 1em;
+      }
+    }
+
+    .header-link-m {
+      .navbar-nav a {
+        color: #505f98;
+      }
+    }
+
+    .btn-buy-block {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .btn-buy {
+        background: #111b47;
+        color: white;
+        width: 10em;
+      }
+    }
+  }
+  .introduce-block {
+    @media (max-width: 1000px) {
+      .introduce-container .introduce-info {
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+        background-color: #e5e8f699;
+      }
+    }
+    .row .col-6 .introduce-title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.13em;
+      line-height: 66px;
+      letter-spacing: 1px;
+      color: #091133;
+    }
+    .introduce-container .col-6 .introduce-text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.13em;
+      line-height: 30px;
+      color: #505f98;
+    }
+    .introduce-info p:nth-of-type(2) {
+      margin-bottom: 4em;
+    }
+  }
+    .introduce-btn{
+        margin-bottom: 2em;
+        .btn-buy {
+            min-width: 30%;
+            background: #111b47;
+            color: white;
+            border-radius: 2px;
+          }
+          .btn-learn-more {
+            min-width: 30%;
+            background: none;
+            color: #111b47;
+            margin-left: 2em;
+            border: 2px solid #091133;
+            border-radius: 2px;
+            
+          } 
+
+}
+  
+}
