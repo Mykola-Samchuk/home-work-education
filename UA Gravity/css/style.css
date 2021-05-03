@@ -1,0 +1,290 @@
+body {
+  background: #010101;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-menu-link {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.13em;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #c7c7c7;
+  padding: 5px;
+}
+
+.link-active {
+  color: #ffffff;
+}
+
+.btn {
+  padding: 1em;
+}
+
+.header {
+  width: 100%;
+  height: 43.75em;
+  background-image: url(../img/bg-camera.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.header .nav-block {
+  background: linear-gradient(180deg, #010101 -17.5%, rgba(1, 1, 1, 0) 100%);
+}
+.header .nav-block .header-link {
+  width: 83%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .nav-block .header-link .link-menu {
+  width: 33.3em;
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav-block .header-link .link-menu-burger {
+  display: none;
+}
+.header .header-title {
+  margin: 0 auto;
+  margin-top: 9.18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-title .header-title-content {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.header .header-title .header-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 2em;
+}
+.header .header-title .btn-header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-transform: capitalize;
+  /* Black */
+  color: #010101;
+  margin-bottom: 8em;
+}
+.header .link-social {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: rotate(270deg);
+  height: 1.5em;
+  top: -17.75em;
+  right: -6.38em;
+}
+.header .link-social .link-social-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  height: 100%;
+  padding: 5px;
+  margin-left: 3px;
+}
+.header .link-social .link-social-link span {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .header .link-social {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .header {
+    min-width: 750px;
+    margin-top: 5.5em;
+  }
+  .header .nav-block .header-logo .logo-img {
+    width: 6.25em;
+  }
+  .header .nav-block .header-link .link-menu {
+    display: none;
+  }
+  .header .nav-block .header-link .link-menu-burger {
+    display: flex;
+    align-items: center;
+  }
+  .header .header-title .header-title-content {
+    margin-bottom: 32px;
+  }
+  .header .header-title .header-subtitle {
+    display: none;
+  }
+  .header .header-title .btn-header {
+    background-color: #f3f3f300;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-bottom: 11.13em;
+  }
+}
+.contant {
+  width: 83%;
+  margin: 0 auto;
+}
+
+.statistic-block {
+  display: flex;
+  justify-content: space-between;
+}
+.statistic-block .statistic-content {
+  display: flex;
+}
+.statistic-block .statistic-content .number {
+  position: relative;
+  margin-top: 7.5em;
+  margin-bottom: 7.5em;
+}
+.statistic-block .statistic-content .number .bg-statistic {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  opacity: 0.7;
+  margin-left: 32px;
+}
+.statistic-block .statistic-content .number .statistic {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 28px;
+}
+.statistic-block .statistic-content .number .statistic .title-statistic {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 68px;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+}
+.statistic-block .statistic-content .number .statistic .subtitle-statistic {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+.statistic-block .statistic-content-left {
+  width: 45%;
+}
+.statistic-block .statistic-content-left .number-project {
+  width: 50%;
+  margin-right: 1em;
+}
+.statistic-block .statistic-content-left .number-project .title-statistic {
+  padding-right: 0.3em;
+}
+.statistic-block .statistic-content-left .number-filming {
+  flex-shrink: 1;
+  width: 50%;
+}
+.statistic-block .statistic-content-left .number-filming .bg-statistic-filming {
+  margin-left: 2em;
+}
+.statistic-block .statistic-content-left .number-filming .title-statistic {
+  padding-right: 0.5em;
+}
+.statistic-block .statistic-content-right {
+  width: 50%;
+}
+.statistic-block .statistic-content-right .number-brand {
+  width: 50%;
+}
+.statistic-block .statistic-content-right .number-brand .bg-statistic-filming {
+  margin-left: 1em;
+}
+.statistic-block .statistic-content-right .number-brand .title-statistic {
+  padding-right: 0.3em;
+}
+.statistic-block .statistic-content-right .number-views {
+  width: 50%;
+}
+.statistic-block .statistic-content-right .number-views .bg-statistic-filming {
+  margin-left: 1.1em;
+}
+.statistic-block .statistic-content-right .number-views .title-statistic {
+  padding-right: 0.3em;
+}
+
+@media (max-width: 1252px) {
+  .statistic-block {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .statistic-block .statistic-content-left {
+    width: 95%;
+  }
+  .statistic-block .statistic-content-left .number-project, .statistic-block .statistic-content-left .number-filming {
+    display: flex;
+    justify-content: center;
+  }
+  .statistic-block .statistic-content-right {
+    width: 95%;
+  }
+  .statistic-block .statistic-content-right .number-brand {
+    display: flex;
+    justify-content: center;
+  }
+  .statistic-block .statistic-content-right .number-views {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    min-width: 750px;
+  }
+}
