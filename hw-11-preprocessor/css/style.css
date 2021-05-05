@@ -235,8 +235,10 @@ body {
   }
 }
 
-.footer-block .footer-content {
+.footer-block .footer-bg {
   background-color: #e7ecff;
+}
+.footer-block .footer-content {
   height: 13.5em;
 }
 .footer-block .footer-content .logo-content {
@@ -300,6 +302,6 @@ body {
 }
 @media (max-width: 1000px) {
   .footer-block .btn-purchase {
-    padding: 0.5em;
+    padding: 0.3em;
   }
 }

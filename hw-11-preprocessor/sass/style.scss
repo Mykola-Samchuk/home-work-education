@@ -255,8 +255,12 @@ body {
 }
 
 .footer-block {
-  .footer-content {
+  
+  .footer-bg{
     background-color: #e7ecff;
+  }
+  .footer-content {
+    
     height: 13.5em;
     .logo-content {
       height: 8.68em;
@@ -323,7 +327,7 @@ body {
 
   @media (max-width: 1000px) {
     .btn-purchase {
-      padding: 0.5em;
+      padding: 0.3em;
     }
   }
 }
