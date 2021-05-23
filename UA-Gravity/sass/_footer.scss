@@ -1,0 +1,243 @@
+.all-partners-content {
+  width: 100%;
+  // height: 43.13em;
+  background-color: #ffffff;
+  padding-top: 7.5em;
+  padding-bottom: 7.5em;
+  .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.partners-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  .partners-title__title {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #010101;
+  }
+  .patners-slide {
+    width: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .slide-arrow {
+      height: 60%;
+    }
+  }
+}
+
+.partners-img {
+  width: 80%;
+}
+.partners-icon {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .partners-icon-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+  .partners-icon-boottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.partners-responsive-icon {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  .partners-icon-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+  .partners-icon-boottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 750px) {
+  .all-partners-content {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .partners-icon {
+    display: none;
+  }
+  .partners-responsive-icon {
+    display: contents;
+  }
+}
+// partners end
+
+.reviews-box {
+  margin-top: 7.5em;
+}
+.reviews-title__title {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.title-card {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #010101;
+  margin-bottom: 0.5em;
+}
+.subtitle-card,
+.subttle-reviews {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #010101;
+}
+.center {
+  color: #ffffff;
+}
+.reviews-card {
+  display: flex;
+  justify-content: center;
+  .reviews-left {
+    background-color: #c7c7c7;
+    margin-right: 3px;
+    width: 33%;
+  }
+  .reviews-center {
+    background: #1e1e1e;
+    margin-right: 3px;
+    width: 33%;
+  }
+  .reviews-right {
+    background-color: #c7c7c7;
+    width: 33%;
+  }
+  .reviews-card-in {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .card-in {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .reviews-right,
+  .reviews-left {
+    display: none;
+  }
+  .reviews-card {
+    .reviews-center {
+      width: 100%;
+    }
+  }
+}
+.reviews-footer {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    #010101 11.52%,
+    rgba(41, 40, 40, 0.76) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+}
+.bg-reviews {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 2.69em;
+}
+@media (max-width: 750px) {
+  .bg-reviews {
+    margin-left: 0.1em;
+    .bg-revie {
+      width: 60%;
+    }
+    .bg-revie-small {
+      width: 30%;
+    }
+  }
+}
+
+.footer-menu {
+  display: flex;
+  height: 13.75em;
+  .footer-menu-menu {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .footer-menu-link {
+      margin-bottom: 2em;
+    }
+    .footer-link-social {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 1.5em;
+    }
+    .footer-title {
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }
+}
+@media (max-width: 750px) {
+  .footer-menu {
+    height: 5em;
+    .footer-menu-menu {
+      justify-content: flex-start;
+      align-items: flex-end;
+      .footer-menu-link {
+        display: none;
+      }
+      .footer-link-social {
+        height: 3.5em;
+        width: 60%;
+        align-items: center;
+      }
+      .footer-title {
+        display: none;
+      }
+    }
+  }
+}

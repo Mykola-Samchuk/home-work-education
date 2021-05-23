@@ -25,6 +25,11 @@ a {
   padding: 1em;
 }
 
+.contant {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .header {
   width: 100%;
   height: 43.75em;
@@ -168,11 +173,6 @@ a {
     min-width: 350px;
   }
 }
-.contant {
-  width: 85%;
-  margin: 0 auto;
-}
-
 .statistic-block {
   display: flex;
   justify-content: space-between;
